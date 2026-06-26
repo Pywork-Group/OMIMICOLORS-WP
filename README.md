@@ -1,1 +1,1 @@
-omimicolors.ru
+https://omimicolors.ru/
