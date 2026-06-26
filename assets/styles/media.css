@@ -1,0 +1,139 @@
+@media (max-width: 1400px) {
+	.footer__content {
+		align-items: stretch;
+		gap: 40px;
+	}
+	.footer__cols {
+		min-width: auto;
+		max-width: 600px;
+		flex-wrap: wrap;
+	}
+	.footer__col {
+		width: calc(50% - 30px);
+	}
+	.footer__map {
+		min-height: auto;
+	}
+}
+
+@media (max-width: 1200px) {
+	.heading {
+		font-size: 22px;
+	}
+	.container-lg,
+	.container-md {
+		padding: 0 25px;
+	}
+	.header__burger-toggle {
+		display: flex;
+	}
+	.header__menu .header__menu-list {
+		display: none;
+	}
+	.header__box {
+		justify-content: flex-end;
+	}
+}
+
+@media (max-width: 1000px) {
+	.footer__content {
+		flex-direction: column;
+	}
+	.footer__cols {
+		max-width: 100%;
+	}
+	.footer__map {
+		aspect-ratio: 16 / 11;
+	}
+}
+
+@media (max-width: 600px) {
+	.footer__cols {
+		column-gap: 30px;
+		row-gap: 20px;
+	}
+	.footer__col-title {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.footer__content {
+		gap: 35px;
+		padding: 35px 0;
+	}
+	.footer__bottom {
+		justify-content: center;
+	}
+	.footer__bottom-copy {
+		font-size: 13px;
+	}
+	.footer__col-list {
+		gap: 12px;
+		font-size: 13px;
+	}
+	.popup {
+		padding: 16px;
+	}
+	.popup__message {
+		font-size: 12px;
+	}
+	.popup__form {
+		gap: 10px;
+	}
+	.popup__form-input,
+	.popup__form-textarea {
+		font-size: 13px;
+	}
+	.popup__form-submit {
+		font-size: 14px;
+		height: 40px;
+	}
+	.popup__close > i {
+		font-size: 20px;
+	}
+	.popup__head {
+		gap: 30px;
+		margin-bottom: 10px;
+	}
+	.popup__modal {
+		padding: 20px;
+	}
+	.heading {
+		font-size: 20px;
+	}
+	.container-lg,
+	.container-md {
+		padding: 0 16px;
+	}
+	.header__contact {
+		padding-top: 12px;
+	}
+	.header__buttons {
+		gap: 15px;
+	}
+	.header__menu-logo > img {
+		min-width: 50px;
+		max-width: 70px;
+		max-height: 50px;
+	}
+	.header__contact {
+		padding-bottom: 12px;
+	}
+	.header__menu {
+		gap: 20px;
+	}
+}
+
+@media (max-width: 400px) {
+	.header__contact {
+		justify-content: space-between;
+	}
+	.header__contact-telegram {
+		font-size: 32px;
+	}
+	.footer__cols {
+		flex-direction: column;
+	}
+	.footer__col {
+		width: 100%;
+	}
+}

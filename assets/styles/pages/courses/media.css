@@ -1,0 +1,5 @@
+@media (max-width: 600px) {
+	.catalog__pagination {
+		margin-top: 30px;
+	}
+}

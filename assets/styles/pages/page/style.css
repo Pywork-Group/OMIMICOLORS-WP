@@ -1,0 +1,325 @@
+section.page {
+	padding: 50px 0;
+}
+.page__content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	line-height: 1.8;
+	padding: 30px 0;
+}
+.page__content a {
+	text-decoration: underline;
+	text-underline-offset: 4px;
+	font-weight: 500;
+	transition: color 250ms ease-out;
+}
+.page__content a:hover {
+	color: #e42e9c;
+}
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.page__content p {
+	word-break: break-word;
+}
+.page__content h2 {
+	font-size: 25px;
+}
+.page__content h3 {
+	font-size: 16px;
+}
+.page__content h4 {
+	font-weight: 500;
+	font-size: 14px;
+}
+.page__content h5 {
+	font-size: 12px;
+}
+.page__content ol,
+.page__content ul {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
+}
+.page__content ul li {
+	margin-left: 17px;
+	list-style: outside;
+}
+.page__content ol li {
+	margin-left: 20px;
+}
+.page__content ol li {
+	list-style-type: decimal;
+	list-style-position: outside;
+}
+
+/* ===== AUTH PAGE ===== */
+.woocommerce {
+	font-family: inherit;
+}
+.page.auth .woocommerce form.login,
+.page.auth .woocommerce form.register,
+.page.auth .woocommerce form.lost_reset_password {
+	min-width: 420px;
+	max-width: 420px;
+	padding: 32px;
+	margin: 0 auto;
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 16px;
+	box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
+}
+.page.auth .woocommerce h2,
+.page.auth .woocommerce h2 {
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.page.auth .woocommerce form.login input.input-text,
+.page.auth .woocommerce form.register input.input-text,
+.page.auth .woocommerce form.lost_reset_password input.input-text {
+	width: 100%;
+	padding: 14px 16px;
+	border: 1px solid #e6e6e6;
+	border-radius: 10px;
+	margin-bottom: 14px;
+	font-size: 14px;
+	background: #fff;
+	outline: none;
+	transition: 0.2s ease;
+}
+.page.auth .woocommerce form.login input:focus,
+.page.auth .woocommerce form.register input:focus,
+.page.auth .woocommerce form.lost_reset_password input:focus {
+	border-color: #e42e9c;
+}
+.page.auth .woocommerce form.lost_reset_password > p:first-child {
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+.page.auth .woocommerce form label {
+	font-size: 13px;
+	margin-bottom: 6px;
+	display: block;
+	color: #555;
+	cursor: pointer;
+}
+.page.auth .woocommerce form .button {
+	width: 100%;
+	padding: 14px;
+	font-size: 14px;
+	font-weight: 500;
+	border-radius: 10px;
+	background-color: #e42e9c;
+	color: #fff;
+	transition: background-color 250ms ease-out;
+}
+.page.auth .woocommerce form .button:hover {
+	background-color: #f621a1;
+}
+.page.auth .woocommerce form .woocommerce-form__label-for-checkbox {
+	font-size: 13px;
+	color: #666;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin: 10px 0;
+}
+.page.auth .woocommerce .woocommerce-error,
+.page.auth .woocommerce .woocommerce-message {
+	border-radius: 12px;
+	padding: 12px 16px;
+	font-size: 14px;
+}
+.page.auth .woocommerce form a {
+	color: #111;
+	text-decoration: underline;
+	font-size: 13px;
+}
+.page.auth .woocommerce .woocommerce-LostPassword {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+.page.account .woocommerce-MyAccount-navigation {
+	background: #ffffff;
+	border-radius: 16px;
+	padding: 15px;
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+}
+.page.account .woocommerce-MyAccount-navigation ul {
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.page.account .woocommerce-MyAccount-navigation ul,
+.page.account .woocommerce-MyAccount-navigation li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.page.account .woocommerce-MyAccount-navigation li {
+	margin-bottom: 10px;
+}
+.page.account .woocommerce-MyAccount-navigation a {
+	display: block;
+	font-size: 15px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #000;
+	transition:
+		background-color 250ms ease-out,
+		color 250ms ease-out;
+}
+.page.account .woocommerce-MyAccount-navigation a:hover {
+	background-color: #f621a1;
+	color: #fff;
+}
+.page.account .woocommerce-MyAccount-content {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+.page.account .woocommerce-MyAccount-content > p {
+	display: inline;
+}
+.page.account .woocommerce-MyAccount-content > p a {
+	display: inline;
+}
+.page.account .woocommerce-MyAccount-content > p + p {
+	margin-top: 10px;
+}
+.page.account .woocommerce-MyAccount-navigation .is-active a {
+	background-color: #f621a1;
+	color: #fff;
+}
+
+/* Контент справа */
+.page.account .woocommerce-MyAccount-content {
+	background: #ffffff;
+	border-radius: 16px;
+	padding: 30px;
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+	margin-top: 20px;
+}
+
+/* Заголовки */
+.page.account .woocommerce h2,
+.page.account .woocommerce h3 {
+	margin-bottom: 15px;
+	color: #111;
+}
+
+/* Таблицы заказов */
+.page.account .woocommerce table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+/* Ячейки */
+.page.account .woocommerce table th,
+.page.account .woocommerce table td {
+	padding: 12px 14px;
+	border-bottom: 1px solid #eee;
+	text-align: left;
+}
+
+/* Заголовки таблицы */
+.page.account .woocommerce table th {
+	font-weight: 600;
+	color: #555;
+}
+
+.page.account .woocommerce-info {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	background-color: transparent;
+}
+
+/* Кнопки */
+.page.account .woocommerce a.button,
+.page.account .woocommerce button.button,
+.page.account .woocommerce input.button {
+	width: fit-content;
+	text-decoration: none;
+	font-size: 15px;
+	border: none;
+	padding: 12px 25px;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color: #e42e9c;
+	color: #fff;
+	transition: background-color 250ms ease-out;
+}
+
+/* Ховер кнопок */
+.page.account .woocommerce a.button:hover,
+.page.account .woocommerce button.button:hover,
+.page.account .woocommerce input.button:hover {
+	background: #f621a1;
+}
+
+/* Формы */
+.page.account .woocommerce form input,
+.page.account .woocommerce form select,
+.page.account .woocommerce form textarea {
+	width: 100%;
+	padding: 12px 12px;
+	border-radius: 10px;
+	border: 1px solid #ddd;
+	margin-bottom: 15px;
+	transition: border 0.2s ease;
+}
+.select2.select2-container.select2-container--default {
+	display: none;
+}
+
+/* Фокус */
+.page.account .woocommerce form input:focus,
+.page.account .woocommerce form select:focus,
+.page.account .woocommerce form textarea:focus {
+	border-color: #f621a1;
+	outline: none;
+}
+
+/* Уведомления */
+.page.account .woocommerce-message,
+.page.account .woocommerce-error {
+	border-radius: 10px;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+/* Успех */
+.page.account .woocommerce-message {
+	background: #ecfdf5;
+	color: #065f46;
+}
+
+/* Ошибка */
+.page.account .woocommerce-error {
+	background: #fef2f2;
+	color: #991b1b;
+}
+
+/* Адаптив */
+@media (min-width: 1200px) {
+}
+
+/* Мобильная версия */
+@media (max-width: 1200px) {
+}
+
+.tinv-header {
+	display: none;
+}

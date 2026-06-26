@@ -1,0 +1,41 @@
+.catalog {
+	padding: 50px 0;
+}
+.catalog__heading {
+	margin: 20px 0;
+}
+.catalog__courses {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.courses__catalog-load {
+	cursor: pointer;
+	margin: 30px auto 0;
+	width: fit-content;
+	min-width: 200px;
+	height: 45px;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	background-color: #fff;
+	border: 1px solid #e42e9c;
+	color: #e42e9c;
+	transition:
+		background-color 250ms ease-out,
+		color 250ms ease-out;
+}
+.courses__catalog-load:not(.hidden) {
+	display: flex;
+}
+.courses__catalog-load:hover {
+	background-color: #f621a1;
+	color: #fff;
+}
+.courses__catalog-loader {
+	background-color: #e42e9c;
+}
+.courses__catalog-loader > svg {
+	width: 24px;
+	height: 24px;
+}

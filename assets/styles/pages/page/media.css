@@ -1,0 +1,34 @@
+@media (max-width: 1200px) {
+	.page__content {
+		font-size: 15px;
+		gap: 8px;
+		padding: 20px 0;
+	}
+	.page__content ol,
+	.page__content ul {
+		gap: 4px;
+	}
+	.page__content ul li {
+		margin-left: 19px;
+	}
+}
+
+@media (max-width: 800px) {
+	.page__content {
+		font-size: 14px;
+		gap: 6px;
+	}
+	.page__content ol,
+	.page__content ul {
+		gap: 2px;
+	}
+}
+
+@media (max-width: 600px) {
+	.page.auth .woocommerce form.login,
+	.page.auth .woocommerce form.register,
+	.page.auth .woocommerce form.lost_reset_password {
+		min-width: 100%;
+		max-width: 100%;
+	}
+}

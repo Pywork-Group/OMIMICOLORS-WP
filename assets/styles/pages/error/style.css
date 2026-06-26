@@ -1,0 +1,27 @@
+.error {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.error__heading {
+	font-size: 100px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.error__description {
+	font-size: 18px;
+	line-height: 1.8;
+	margin-bottom: 40px;
+}
+.error__button {
+	width: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0 40px;
+	font-weight: 500;
+}
